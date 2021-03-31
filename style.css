@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    outline: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+body{
+    background: #000;
+}
+.myValue{
+    padding: 91px 150px;
+    font-size: 50px;
+    color: red;
+    background: #000;
+    border: 1px red solid;
+}
+.valueButton{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    top: 219px;
+    left: 340px;
+    font-size: 30px;
+    color: brown;
+    background: #000;
+    border: 1px red solid;
+    cursor: pointer;
+}
+.randomFinder{
+    width: 500px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.493);
+    color: red;
+    font-size: 30px;
+    margin-top: 50px;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.randomValue{
+    font-size: 30px;
+    color: white;
+}
